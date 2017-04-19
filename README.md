@@ -1,4 +1,6 @@
 # Alpha
-inital repo
-1st changes
+## inital repo
+**1st changes**
 desktop changes
+:smile:
+
