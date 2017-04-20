@@ -1,6 +1,7 @@
 /* table header info */
 /* bug fix remove last comma before FROM clause */
 /*new sprint (2) remove bunch or columns. we want this in dev but not in test */
+/* test server change */
 
 SELECT
      CollectTimeStamp, 
@@ -78,6 +79,31 @@ SELECT
      SeqRespTime (Format 'ZZ,ZZZ,ZZ9.999'),
      ReqIOKB (Format 'ZZ,ZZZ,ZZ9.999'),  
      ReqPhysIO (Format 'ZZ,ZZZ,ZZ9.999'),
-     ReqPhysIOKB (Format 'ZZ,ZZZ,ZZ9.999')
+     ReqPhysIOKB (Format 'ZZ,ZZZ,ZZ9.999'),
+     DataCollectAlg,
+     CallNestingLevel,
+     NumRequestCtx,
+     KeepFlag,
+     QueryReDriven,
+     ReDriveKind,
+     LastRespTime,
+     DisCPUTime,
+     Statements,
+     DisCPUTimeNorm,
+     TxnMode,
+     RequestMode,
+     DBQLStatus,
+     NumFragments,
+     VHLogicalIO,
+     VHPhysIO,
+     VHLogicalIOKB,
+     VHPhysIOKB,
+     LockDelay,
+     CheckpointNum,
+     UtilityInfoAvailable,
+     UnitySQL,
+     ThrottleBypassed, 
+     IterationCount,
+     MaxStepMemory
   
  FROM DBC.DBQLogTbl;
