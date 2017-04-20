@@ -1,5 +1,6 @@
 /* table header info */
 /* bug fix remove last comma before FROM clause */
+/* test server change */
 
 SELECT
      CollectTimeStamp, 
