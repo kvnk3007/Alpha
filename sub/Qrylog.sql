@@ -1,5 +1,5 @@
+/* table header info */
 SELECT
-     ProcID,
      CollectTimeStamp, 
      QueryID ( Format '--Z(17)9'),
      UserID, 
@@ -96,13 +96,10 @@ SELECT
      VHPhysIOKB,
      LockDelay,
      CheckpointNum,
-     UnityTime,
      UtilityInfoAvailable,
      UnitySQL,
      ThrottleBypassed, 
      IterationCount,
      MaxStepMemory,
-     TTGRANULARITY,
-     TotalServerByteCount,
-     ExtraField20 (Named PersistentSpool)     
+  
  FROM DBC.DBQLogTbl;
