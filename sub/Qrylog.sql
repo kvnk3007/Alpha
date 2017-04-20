@@ -1,4 +1,6 @@
 /* table header info */
+/* bug fix remove last comma before FROM clause */
+
 SELECT
      CollectTimeStamp, 
      QueryID ( Format '--Z(17)9'),
@@ -100,6 +102,6 @@ SELECT
      UnitySQL,
      ThrottleBypassed, 
      IterationCount,
-     MaxStepMemory,
+     MaxStepMemory
   
  FROM DBC.DBQLogTbl;
